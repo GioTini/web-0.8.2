@@ -1,0 +1,47 @@
+body, html {
+    height: 100%;
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h1 {
+    color: rgb(51, 201, 136);
+}
+p {
+    text-align: justify;
+}
+button {
+    background-color: rgb(167, 227, 204);
+    border-radius: 20px;
+    border-style: none;
+    font-size: 15px;
+}
+button:hover {
+    background-color: rgb(87, 229, 181);
+    cursor: pointer;
+}
+
+.container {
+    border-color: rgb(15, 128, 94);
+    border-radius: 20px;
+    border-width: 2px; 
+    border-style: solid;
+    height: fit-content;
+    width: 500px;
+    padding: 10px;
+    position: relative;
+}
+.box {
+    display: flex;
+    justify-content: space-between;
+}
+button svg {
+    width: 20px;
+}
+.container > button {
+    position: absolute;
+    top: -10px;
+    right: 20px;
+}
